@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입하자</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="/style/common.css">
+    <link rel="stylesheet" href="./style/join.css">
+</head>
+<body>
+    <header>
+        <h1><a href="./index.html"><img src="./imgaes/Naver_Logotype.svg.png" alt="네이버"></a></h1>
+    </header>
+    <main>
+        <div class="contents">
+            <form action="#" method="post" id="join">
+                <fieldset>
+                    <legend id="skip">회원가입</legend>
+                    <dl>
+                        <dt>아이디</dt>
+                        <dd><input type="text"><span>@naver.com</span></dd>
+                        <dt>비밀번호</dt>
+                        <dd><input type="password"></dd>
+                        <dt>비밀번호 재확인</dt>
+                        <dd><input type="password"></dd>
+                        <dt>이름</dt>
+                        <dd><input type="text"></dd>
+                        <dt>생년월일</dt>
+                        <dd class="birthday">
+                            <input type="text" placeholder="년(4자)">
+                            <select name="month" id="month">
+                                <option value="month">월</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                            <input type="text" placeholder="일">
+                        </dd>
+                        <dt >성별</dt>
+                        <dd class="jender">
+                        <select name="jender">
+                            <option value="cheak">성별</option>
+                            <option value="cheak">남</option>
+                            <option value="cheak">여</option>
+                        </select></dd>
+                        <dt class="myemail">본인 확인 이메일 <span class="cheak">(선택)</span></dt>
+                        <dd class="email"><input type="email" placeholder="선택입력"></dd>
+                        <dt class="handphone">휴대전화</dt>
+                        <dd class="number">
+                            <select name="number">
+                                <option value="ko">대한민국+82</option>
+                                <option value="ho">홍콩+852</option>
+                            </select>
+                        </dd>
+                        <dd class="certified_1">
+                            <input type="text" placeholder="전화번호 입력">
+                            <button type="button">인증번호 받기</button>
+                        </dd>
+                        <dd class="certified_2"><input type="text" placeholder="인증번호를 입력하세요"></dd>
+                        <button type="submit" class="join_go">가입하기</button>
+                    </dl>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="top">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">책임의 한계와 법적고지</a>
+            <a href="#">회원정보 고객센터</a>
+        </div>
+        <address>NAVER Copyright © NAVER Corp. All Rights Reserved.</address>
+    </footer>
+</body>
+</html>

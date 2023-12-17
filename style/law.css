@@ -1,0 +1,66 @@
+main {width: 768px;margin: 0 auto;}
+main .contents {}
+main .contents #join {}
+main .contents #join fieldset {
+    border: none;width: 460px; margin: 0 auto;}
+main .contents #join fieldset #skip {display: none;}
+main .contents #join fieldset #cheak {}
+main .contents #join fieldset .consent {
+    text-decoration: underline;
+    font-weight: bold;
+}
+main .contents #join fieldset dl {}
+main .contents #join fieldset dl dt {
+    margin-top: 20px; margin-bottom: 20px;}
+main .contents #join fieldset dl dt .one {color: #08a600;}
+main .contents #join fieldset dl dd {
+    background-color: aqua;
+    width:100%; height:88px;
+    border:1px solid #ccc; overflow:auto;
+    background-color:#fff; padding:10px;}
+main .contents #join fieldset dl dd .first {}
+main .contents #join fieldset dl dd .first h2 {
+    font-weight: bolder;padding-bottom: 10px
+}
+main .contents #join fieldset dl dd .first p {}
+main .contents #join fieldset dl dt  {}
+main .contents #join fieldset dl dt input {}
+main .contents #join fieldset dl dt .two {color: #08a600;}
+main .contents #join fieldset dl dt a {
+    border: 1px solid #08a600; color: #08a600;padding:7px 10px;
+    float: right;
+}
+main .contents #join fieldset dl dd .second{}
+main .contents #join fieldset dl dd .second h2 {
+    font-weight: bolder;padding-bottom: 10px
+}
+main .contents #join fieldset dl dd .second p {}
+main .contents #join fieldset dl dt {}
+main .contents #join fieldset dl dt .three {}
+main .contents #join fieldset dl dt .three  {color: #aaa;}
+main .contents #join fieldset dl dd {}
+main .contents #join fieldset dl dd .third {}
+main .contents #join fieldset dl dd .third h2 {
+    font-weight: bolder; padding-bottom: 10px;
+}
+main .contents #join fieldset dl dd .third .p {}
+main .contents #join fieldset .btn {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+main .contents #join fieldset .btn #btn1 {
+    width: 225.39px; height: 56px; color: #fff;
+    background-color: #08a600; border: none;
+}
+main .contents #join fieldset .btn #btn2 {
+    width: 225.39px; height: 56px; background-color: #828282; 
+    border: none; 
+}
+main .contents #join fieldset .btn #btn2 a {color: #fff;}
+main .contents .bottom {text-align: center; margin: 20px 0 70px 0;  
+}
+main .contents .bottom p {font-size:0.75em}
+main .contents .bottom p a {font-size:0.9em; text-decoration: underline;}
+
+

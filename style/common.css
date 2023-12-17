@@ -1,0 +1,14 @@
+header {width:768px; margin:0 auto;}
+header .lang {
+    text-align: right;
+}
+header .lang select {
+    width: 97; height: 33px;
+}
+header h1 {text-align: center; padding: 50px;}
+footer {
+    font-size: 0.75rem;
+    text-align: center;
+}
+footer .top {margin-bottom: 10px;}
+footer address {}

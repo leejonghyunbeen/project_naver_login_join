@@ -1,0 +1,58 @@
+main {}
+main .contents {
+    width: 460px;
+    margin: 0 auto; 
+}
+main .contents #join {}
+main .contents #join fieldset {border: none;}
+main .contents #join fieldset #skip {display: none;}
+main .contents #join fieldset dl {}
+main .contents #join fieldset dl dt {
+    font-size: 0.875rem; font-weight: bold;
+}
+main .contents #join fieldset dl dd {}
+main .contents #join fieldset dl dd input {
+    margin-bottom: 20px;
+    border: none;
+    width: 328.5px; height: 31px;}
+main .contents #join fieldset dl dd span {font-size: 1rem;}
+main .contents #join fieldset dl .birthday {}
+main .contents #join fieldset dl .birthday input {
+    width: 33%; height: 50px;
+}
+main .contents #join fieldset dl .birthday #month {
+    width: 30%; border: none; height: 50px;
+}
+main .contents #join fieldset dl .birthday #month option {width: 33%;}
+main .contents #join fieldset dl .jender {}
+main .contents #join fieldset dl .jender select {
+    border: none;
+    width: 460px; font-size: 1rem; height: 53px; margin-bottom: 20px;
+}
+main .contents #join fieldset dl .myemail {margin-bottom: 20px;}
+main .contents #join fieldset dl .cheak {font-size: 0.825rem;}
+main .contents #join fieldset dl .email {}
+main .contents #join fieldset dl .email input {margin-bottom: 20px;}
+main .contents #join fieldset dl .handphone {}
+main .contents #join fieldset dl .num {
+    margin-bottom: 20px; width: 460px;
+}
+main .contents #join fieldset dl .number select {
+    width: 460px; height: 53px; border: none; margin-bottom: 20px;
+}
+main .contents #join fieldset dl .number select option {}
+main .contents #join fieldset dl .certified_1 {}
+main .contents #join fieldset dl .certified_1 input {height: 53px;}
+main .contents #join fieldset dl .certified_1 button {
+    color: #fff; background-color: #03c75a; border: none;
+    width: 115px;font-size: 0.75rem; height: 53px;
+}
+main .contents #join fieldset dl .certified_2 {}
+main .contents #join fieldset dl .certified_2 input {
+    width: 460px; border: 1px solid #aaa; padding: 20px;
+}
+main .contents #join fieldset .join_go {
+    border: none;
+    width: 460px; height: 70px; font-weight: bold; color: #fff;
+    background-color: #03c75a; font-size: 1.2rem; margin-bottom: 50px;}
+
